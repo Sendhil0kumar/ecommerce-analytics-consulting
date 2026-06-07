@@ -56,7 +56,7 @@ Three hypotheses were designed to be **Mutually Exclusive and Collectively Exhau
 ### H1 — Geographic Analysis
 Cold spots identified: Middle East & Africa ($45.9K) and South America ($46K) generate only **18% of total revenue**, compared to Europe's 38% ($137K). The gap isn't demand — it's logistics and payment infrastructure.
 
-![Regional Sales](charts/01_regional_sales.png)
+![Regional Sales](01_regional_sales.png)
 
 ---
 
@@ -66,11 +66,11 @@ Regression analysis revealed that discounts are **not driving sales volume**, bu
 - **Discount ↔ Revenue correlation: −0.046** (effectively zero — no uplift)
 - **Discount ↔ Profit correlation: −0.141** (meaningful — every % discount bleeds margin)
 
-![Discount Impact](charts/02_discount_impact.png)
+![Discount Impact](02_discount_impact.png)
 
 Category-level breakdown confirms Furniture and Technology carry the highest average discounts:
 
-![Category Discount](charts/05_category_discount.png)
+![Category Discount](05_category_discount.png)
 
 ---
 
@@ -83,21 +83,21 @@ Expected: Corporate > Consumer. Reality:
 | Corporate | $229.50 |
 | Home Office | $211.30 |
 
-![AOV by Segment](charts/03_aov_segment.png)
+![AOV by Segment](03_aov_segment.png)
 
 ---
 
 ### Profitability Scatter
 Technology shows the widest spread of below-break-even orders — directly linked to the discount findings:
 
-![Sales vs Profit](charts/04_sales_profit_scatter.png)
+![Sales vs Profit](04_sales_profit_scatter.png)
 
 ---
 
 ### Revenue Projection
 If the three recommendations below are implemented, quarterly revenue is projected to grow from $149K to $210K within two quarters — a **41% increase from baseline**:
 
-![Revenue Projection](charts/06_revenue_projection.png)
+![Revenue Projection](06_revenue_projection.png)
 
 ---
 
@@ -115,7 +115,7 @@ If the three recommendations below are implemented, quarterly revenue is project
 
 The full consulting argument follows the **Minto Pyramid Principle**: answer first, justify below.
 
-![Minto Pyramid](charts/07_minto_pyramid.png)
+![Minto Pyramid](07_minto_pyramid.png)
 
 | Layer | Content |
 |---|---|
@@ -131,20 +131,17 @@ The full consulting argument follows the **Minto Pyramid Principle**: answer fir
 
 ```
 📦 ecommerce-analytics-consulting
-├── 📓 notebooks/
-│   └── M10_AnalyticsConsulting_Strategic_Revenue_Growth_Analysis.ipynb
-├── 📊 charts/
-│   ├── 01_regional_sales.png
-│   ├── 02_discount_impact.png
-│   ├── 03_aov_segment.png
-│   ├── 04_sales_profit_scatter.png
-│   ├── 05_category_discount.png
-│   ├── 06_revenue_projection.png
-│   └── 07_minto_pyramid.png
-├── 📂 presentations/
-│   ├── PPT1_Consultant_Presentation.pdf
-│   ├── PPT2_Approach_Methodology.pdf
-│   └── PPT_Executive_Summary.pdf
+├── 📓 M10_AnalyticsConsulting_Strategic_Revenue_Growth_Analysis.ipynb
+├── 📊 01_regional_sales.png
+├── 📊 02_discount_impact.png
+├── 📊 03_aov_segment.png
+├── 📊 04_sales_profit_scatter.png
+├── 📊 05_category_discount.png
+├── 📊 06_revenue_projection.png
+├── 📊 07_minto_pyramid.png
+├── 📂 PPT1_Consultant_Presentation.pdf
+├── 📂 PPT2_Approach_Methodology.pdf
+├── 📂 PPT_Minto_Pyramid.pdf
 ├── 📄 requirements.txt
 └── 📄 README.md
 ```
@@ -155,14 +152,14 @@ The full consulting argument follows the **Minto Pyramid Principle**: answer fir
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/ecommerce-analytics-consulting.git
+git clone https://github.com/Sendhil0kumar/ecommerce-analytics-consulting.git
 cd ecommerce-analytics-consulting
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Launch the notebook
-jupyter notebook notebooks/M10_AnalyticsConsulting_Strategic_Revenue_Growth_Analysis.ipynb
+jupyter notebook M10_AnalyticsConsulting_Strategic_Revenue_Growth_Analysis.ipynb
 ```
 
 ---
@@ -191,9 +188,10 @@ jupyter notebook notebooks/M10_AnalyticsConsulting_Strategic_Revenue_Growth_Anal
 
 Feel free to connect or reach out if you'd like to discuss the methodology or findings.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/YOUR_PROFILE)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github)](https://github.com/YOUR_USERNAME)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/sendhilkumar)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github)](https://github.com/Sendhil0kumar)
 
 ---
 
 *Module 10 — Consulting in Analytics | Mentor: Prasanna Rajappa*
+
